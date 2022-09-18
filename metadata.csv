@@ -1,54 +1,53 @@
-state_name,usps_abbreviation,fips_code,regulator_url,regulation_url,public_database
-Alabama,AL,1,,,
-Alaska,AK,2,,,
-Arizona,AZ,4,,,
-Arkansas,AR,5,,,
-California,CA,6,,,
-Colorado,CO,8,,,
-Connecticut,CT,9,,,
-Delaware,DE,10,,,
-District of Columbia,DC,11,,,
-Florida,FL,12,,,
-Georgia,GA,13,,,
-Hawaii,HI,15,,,
-Idaho,ID,16,,,
-Illinois,IL,17,,,
-Indiana,IN,18,,,
-Iowa,IA,19,,,
-Kansas,KS,20,,,
-Kentucky,KY,21,,,
-Louisiana,LA,22,,,
-Maine,ME,23,,,
-Maryland,MD,24,,,
-Massachusetts,MA,25,,,
-Michigan,MI,26,,,
-Minnesota,MN,27,,,
-Mississippi,MS,28,,,
-Missouri,MO,29,,,
-Montana,MT,30,,,
-Nebraska,NE,31,,,
-Nevada,NV,32,,,
-New Hampshire,NH,33,,,
-New Jersey,NJ,34,,,
-New Mexico,NM,35,,,
-New York,NY,36,,,
-North Carolina,NC,37,,,
-North Dakota,ND,38,,,
-Ohio,OH,39,,,
-Oklahoma,OK,40,,,
-Oregon,OR,41,,,
-Pennsylvania,PA,42,,,
-Puerto Rico,PR,72,,,
-Rhode Island,RI,44,,,
-South Carolina,SC,45,,,
-South Dakota,SD,46,,,
-Tennessee,TN,47,,,
-Texas,TX,48,,,
-Utah,UT,49,,,
-Vermont,VT,50,,,
-Virginia,VA,51,,,
-Virgin Islands,VI,78,,,
-Washington,WA,53,,,
-West Virginia,WV,54,,,
-Wisconsin,WI,55,,,
-Wyoming,WY,56,,,
+state_name,usps_abbreviation,fips_code,regulator_url,regulation_url,breach_database_url
+Alabama,AL,1,https://www.alabamaag.gov/,,
+Alaska,AK,2,http://law.alaska.gov/index.html,http://www.akleg.gov/basis/statutes.asp#45.47,
+Arizona,AZ,4,https://www.azag.gov/,,
+Arkansas,AR,5,https://arkansasag.gov/,http://www.arkleg.state.ar.us/assembly/2005/R/Acts/Act1526.pdf,
+California,CA,6,https://oag.ca.gov/,https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=,https://oag.ca.gov/privacy/databreach/list
+Colorado,CO,8,https://coag.gov/,https://leg.colorado.gov/sites/default/files/documents/2021A/bills/2021a_190_enr.pdf,
+Connecticut,CT,9,https://portal.ct.gov/AG,https://www.cga.ct.gov/2022/ACT/PA/PDF/2022PA-00015-R00SB-00006-PA.PDF,
+Delaware,DE,10,https://attorneygeneral.delaware.gov/fraud/cpu/,http://delcode.delaware.gov/title6/c012c/index.shtml,https://attorneygeneral.delaware.gov/fraud/cpu/securitybreachnotification/database/
+District of Columbia,DC,11,https://oag.dc.gov/,,
+Florida,FL,12,http://www.myfloridalegal.com/,,
+Georgia,GA,13,https://personaldata.ge/ka,https://matsne.gov.ge/en/document/download/1561437/7/en/pdf,
+Hawaii,HI,15,https://ag.hawaii.gov/,,https://cca.hawaii.gov/ocp/notices/security-breach/
+Idaho,ID,16,https://www.ag.idaho.gov/,,
+Illinois,IL,17,https://illinoisattorneygeneral.gov/,,
+Indiana,IN,18,https://www.in.gov/attorneygeneral/,,https://www.in.gov/attorneygeneral/consumer-protection-division/id-theft-prevention/security-breaches/
+Iowa,IA,19,https://www.iowaattorneygeneral.gov/,,https://www.iowaattorneygeneral.gov/for-consumers/security-breach-notifications
+Kansas,KS,20,https://ag.ks.gov/home,,
+Kentucky,KY,21,https://ag.ky.gov/,,
+Louisiana,LA,22,https://www.ag.state.la.us/Contact,,
+Maine,ME,23,https://www.maine.gov/ag/,http://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280072014,https://www.maine.gov/ag/consumer/identity_theft/index.shtml
+Maryland,MD,24,http://www.marylandattorneygeneral.gov/,,https://www.marylandattorneygeneral.gov/Pages/IdentityTheft/breachnotices.aspx
+Massachusetts,MA,25,https://www.mass.gov/orgs/office-of-attorney-general-maura-healey,,https://www.mass.gov/lists/data-breach-reports
+Michigan,MI,26,https://www.michigan.gov/ag/,,
+Minnesota,MN,27,http://www.ag.state.mn.us/,,
+Mississippi,MS,28,http://www.ago.state.ms.us/,,
+Missouri,MO,29,https://ago.mo.gov/,,
+Montana,MT,30,https://dojmt.gov/,,https://dojmt.gov/consumer/databreach/
+Nebraska,NE,31,https://ago.nebraska.gov/,,
+Nevada,NV,32,http://ag.nv.gov/,https://www.leg.state.nv.us/NRS/NRS-603A.html,
+New Hampshire,NH,33,https://www.doj.nh.gov/,,https://www.doj.nh.gov/consumer/security-breaches/index.htm
+New Jersey,NJ,34,,,https://www.cyber.nj.gov/threat-center/public-data-breaches/
+New Mexico,NM,35,https://www.nmag.gov/,,
+New York,NY,36,https://ag.ny.gov/,,
+North Carolina,NC,37,https://ncdoj.gov/,,
+North Dakota,ND,38,https://attorneygeneral.nd.gov/,,https://attorneygeneral.nd.gov/consumer-resources/data-breach-notices
+Ohio,OH,39,https://www.ohioattorneygeneral.gov/Home,,
+Oklahoma,OK,40,http://www.oag.ok.gov/newsroom,,https://oklahoma.gov/omes/services/information-services/cybercommand/cybersecurity-breaches.html
+Oregon,OR,41,https://www.doj.state.or.us/,,https://justice.oregon.gov/consumer/DataBreach/
+Pennsylvania,PA,42,https://www.attorneygeneral.gov/,,
+Puerto Rico,PR,72,https://www.daco.pr.gov/,,
+Rhode Island,RI,44,http://www.riag.ri.gov/index.php,,
+South Carolina,SC,45,https://consumer.sc.gov/,,
+South Dakota,SD,46,https://atg.sd.gov/,,
+Tennessee,TN,47,https://www.tn.gov/attorneygeneral.html,,
+Texas,TX,48,https://www.texasattorneygeneral.gov/,,https://oagtx.force.com/datasecuritybreachreport/apex/DataSecurityReportsPage
+Utah,UT,49,https://attorneygeneral.utah.gov/,https://le.utah.gov/~2022/bills/sbillenr/SB0227.pdf,
+Vermont,VT,50,https://ago.vermont.gov/,https://legislature.vermont.gov/Documents/2020/Docs/JOURNAL/sj200214.pdf#page=36,https://ago.vermont.gov/data-security-breaches/
+Virginia,VA,51,https://www.oag.state.va.us/,https://law.lis.virginia.gov/vacode/title59.1/chapter53/,
+Washington,WA,53,https://www.atg.wa.gov/,,https://datcp.wi.gov/Pages/Programs_Services/DataBreaches.aspx
+West Virginia,WV,54,https://ago.wv.gov/Pages/default.aspx,,
+Wisconsin,WI,55,https://www.doj.state.wi.us/,,https://datcp.wi.gov/Pages/Programs_Services/DataBreaches.aspx
+Wyoming,WY,56,http://ag.wyo.gov/home,,
